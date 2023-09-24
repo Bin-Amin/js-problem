@@ -60,6 +60,29 @@ else {
 
 
 // no 5
+function canPay(changeArray, totalDue) {
+    let sum = 0;
+if(!Array.isArray(changeArray) || changeArray.length === 0){
+    return 'please enter a valid array and fil the array'
+}
+else{
+    for(let i = 0; i < changeArray.length; i++){
+        if(typeof changeArray[i] === 'number'){
+            sum += changeArray[i];
+        }
+    }
+    
+    if(sum >= totalDue){
+        return true;
+    }
+    
+    else{
+        return false; 
+    }
+     
+}
+
+}
 
 
 
