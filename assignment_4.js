@@ -41,11 +41,25 @@ function sortMaker(arr)  {
 }
 
 
+// no 4
+function findAddress(obj) {
+    
+if(typeof obj !== 'object'){
+    return 'please Enter a object'
+}
+else {
+
+    let street = obj.street || ',__,__'
+    let house = obj.house || ',__,__'
+    let society = obj.society || ',__,__'
+    return street + ',' + house + ',' + society;
+}
+}
 
 
 
 
-
+// no 5
 
 
 
