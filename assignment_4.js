@@ -1,4 +1,4 @@
-// no 1
+
 function cubeNumber(number) {
 if(typeof number !== "number"){
 
@@ -10,7 +10,7 @@ else{
 }
 }
 
-// no 2
+
 function matchFinder(string1, string2) { 
 if(typeof string1 !== 'string' || typeof string2 !== 'string' || string1,string2 === ''){
     return 'please enter a string'
@@ -22,7 +22,7 @@ else{
 }
 
 
-// no 3
+
 function sortMaker(arr)  {
     if (arr.length === 2 && arr[1] === arr[0]) {   
         return "equal";
@@ -41,7 +41,7 @@ function sortMaker(arr)  {
 }
 
 
-// no 4
+
 function findAddress(obj) {
     
 if(typeof obj !== 'object'){
@@ -59,7 +59,7 @@ else {
 
 
 
-// no 5
+
 function canPay(changeArray, totalDue) {
     let sum = 0;
 if(!Array.isArray(changeArray) || changeArray.length === 0){
@@ -78,10 +78,8 @@ else{
     
     else{
         return false; 
-    }
-     
+    }   
 }
-
 }
 
 
