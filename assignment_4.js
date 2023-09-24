@@ -16,8 +16,7 @@ if(typeof string1 !== 'string' || typeof string2 !== 'string' || string1,string2
     return 'please enter a string'
 }
 else{
-    let str2 = new RegExp(string2);
-    let str1 = str2.test(string1);
+    let str1 = string1.includes(string2)
     return str1;
 }
 }
